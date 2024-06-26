@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages, Extension
+﻿from setuptools import setup, find_packages, Extension
 from glob import glob
 
 with open("README.md", "r") as f:
@@ -36,13 +36,13 @@ setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "numpy==1.23.0",
-        "matplotlib==3.5.2",
-        "scipy==1.8.1",
-        "pycddlib==2.1.6",
-        "pyny3d==0.1.1",
-        "casadi==3.5.5",
-        "twine==4.0.2",
+        "numpy>=1.23.0",
+        "matplotlib>=3.5.2",
+        "scipy>=1.8.1",
+        "pycddlib>=2.1.6",
+        "pyny3d>=0.1.1",
+        "casadi>=3.5.5",
+        "twine>=4.0.2",
     ],
     ext_modules=ext_modules,
     packages=find_packages(where="src"),
