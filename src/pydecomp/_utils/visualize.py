@@ -5,10 +5,10 @@ import cdd
 import pyny3d.geoms as pyny
 
 import matplotlib.pyplot as plt
-from matplotlib.backends.backend_pdf import PdfPages
-from matplotlib import cm
-from mpl_toolkits.mplot3d import Axes3D
-from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+# from matplotlib.backends.backend_pdf import PdfPages
+# from matplotlib import cm
+# from mpl_toolkits.mplot3d import Axes3D
+# from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 
 from .quaternion import quaternion_to_rotation
 
